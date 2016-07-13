@@ -1,0 +1,394 @@
+* { 
+	margin: 0; 
+	padding: 0 
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1542px;
+	width: 80%;
+  	height: 2113px;
+	border: 4px;
+	border-color: white;
+	border-style: solid;
+	text-align: center;
+}
+
+#banner{
+	position:relative;
+	background-image: url("/pics/Banner.jpg");
+	width: 100%;
+	min-width: 1600px;
+	height: 600px;
+	/*margin-left: -800px;
+	margin-right: auto;
+	left: 50%;*/
+	overflow: hidden;
+	z-index: 1;
+}
+
+#topNav{
+	width: 100%;
+	min-width: 1100px;
+	height: 80px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	vertical-align: center;
+	background-color: #2B2B2B;
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: blue;*/
+	z-index: 3;
+}
+
+#logo{
+	position: relative;
+	display: inline-block;
+	background-color: red;
+	position: relative;
+	margin-left: 20px;
+	margin-top:10px;
+	width: 80px;
+	height: 60px;
+	z-index: 4;
+}
+
+#linksContain{
+	display: inline-block;
+	position: absolute;
+	width: 80%;
+	bottom: 0;
+	left: 100px;
+	height: 34px;
+}
+#lcsCon{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background: url("/pics/lcs2.png");
+	background-size: contain;
+	position: absolute;
+	left: 146px;
+	top: 1px;
+	z-index: 5;
+}
+
+#gameCon{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url("/pics/game.png");
+	background-size: contain;
+	position: absolute;
+	left: 255px;
+	top: 4px;
+	z-index: 5;
+}
+
+#communCon{
+	display: inline-block;
+	height: 30px;
+	width: 35px;
+	background: url("/pics/community.png");
+	background-size: contain;
+	position: absolute;
+	left: 365px;
+	top: 7px;
+	z-index: 5;
+}
+
+.topLinks{
+	position: relative;
+	color: white;
+	font-family: 'Impact', sans-serif;
+	font-weight: 300;
+    font-size: 20px;
+	margin-left: 35px; 
+	z-index: 3;
+	cursor: pointer;
+}
+
+.topLinks:hover{
+	font-weight: 500;
+}
+
+#roleBtn{
+	position: absolute;
+	height: 40px;
+	width: 125px;
+	left: 455px;
+	bottom: 0;
+	z-index: 5;
+	cursor: pointer;
+}
+
+#panel{
+	position: relative;
+	left: 458px;
+	height: 350px;
+	width: 300px;
+	bottom: -8%;
+	background-color: #2B2B2B;
+	display: none;
+	z-index: 4;
+}
+
+.roleChoose{
+	position: relative;
+	width: 290px;
+	height: 60px;
+	background-color: blue;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+form input[type="text"] {
+	position: absolute;
+	bottom: 25%;
+	right: 100px;
+	height: 20px;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: gray;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: black;
+}
+
+form input[type="submit"] {
+	position: absolute;
+	bottom: 25%;
+	right: 100px;
+	height: 20px;
+	width: 29px;
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: black;
+	z-index: 4;
+}
+
+#banPic{
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#picker{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	width: 1190px;
+	height: 170px;
+}
+
+.picImg{
+	text-align: center;
+	vertical-align: center:
+}
+
+#navContain{
+	position: absolute;
+	background-color: white;
+	margin-left: -560px;
+	top: 450px;
+	left: 50%;
+	width: 1120px;
+	height: 50px;
+	border: 1px solid;
+	border-color: black;
+	z-index: 2;
+}
+/* Containers for body articles and event */
+
+#boxContain{
+	position: absolute;
+	background-color: white;
+	margin-left: -560px;
+	margin-right: auto;
+	top: 500px;
+	left: 50%;
+	width: 1120px;
+  	height: 1087px;
+	border: 1px solid;
+	border-color: black;
+	z-index: 1;
+}
+
+#ftContain{
+	display: inline-block;
+	/*width: 44.2%;*/
+	width: 496px;
+	height: 420px;
+	background: url(/pics/WorldsPic.jpg);
+	background-position: center;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+#undFeat{
+	position: absolute;
+	top: 424px;
+	left: 0px;
+	display: inline-block;
+	width: 808px;
+	height: 260px;
+	background: url(/pics/sktt1.png);
+	margin: 0px;
+	color: white;
+	text-align: left;
+	font-size: 35px;
+}
+
+#midArtContain{
+	position: relative;
+	display: inline-block;
+	height: 208px;
+	width: 27.5%;
+	background: url(/pics/Fnatic.jpg);
+	background-size: contain;
+	margin-top: 0px;
+	vertical-align: top;
+	color: white;
+	text-align: left;
+	font-size: 25px;
+}
+
+#midArtContain2{
+	position: absolute;
+	top: 210px;
+	left: 500px;
+	height: 208px;
+	width: 27.5%;
+	margin-top: 2px;
+	background-size: contain;
+	background: url(/pics/Incarnation.jpg);
+	color: white;
+	text-align: left;
+	font-size: 30px;
+}
+
+#eventContain{
+	position: absolute;
+	display: inline-block;
+	height: 684px;
+	width: 27.5%;
+	background-color: #606060;
+	top: 0px;
+	right: 0px;
+}
+
+#currentEvent{
+	position: relative;
+	width: 300px;
+	height: 75px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2B2B2B;
+}
+
+#artContent{
+	display: inline-block;
+	position: relative;
+	width: 804px;
+	height: 900px;
+	margin-left: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: orange;
+}
+
+.upEvents{
+	position: relative;
+	width: 300px;
+	height: 75px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2B2B2B;
+}
+
+/* ID for the position chooser*/
+#pickBtn{
+    display: inline-block;
+    width: 198px;
+    height: 160px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: yellow;
+	overflow:hidden;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#pickBtn:hover{
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+	width: 300px;
+}
+
+#footer{
+	position: absolute;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 5px;
+}
+
+/* Submit buttons */
+ 
+.buttons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+ 
+input[type="submit"] {
+  display: inline;
+  margin: 0 20px;
+  width: 12em;
+  padding: 10px;
+  border: 2px solid #7c412b;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: #fff;
+  background: #ef7d50;
+  font-weight: bold;
+  -webkit-appearance: none;
+}
+ 
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+  background: #fff;
+  color: #ef7d50;
+}
+
+#loginForm{
+	margin-top:20px;
+	height: 20px;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: gray;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: black;
+}
